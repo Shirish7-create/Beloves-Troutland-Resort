@@ -1,26 +1,33 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beloves Troutland and Resort | Kageshwori Manohara, Kathmandu</title>
     <meta name="description" content="Beloves Troutland and Resort - Nepali countryside retreat and trout fish farm in Kageshwori Manohara, Kathmandu. Enjoy nature, fishing, and local hospitality.">
+    <meta name="robots" content="index,follow">
+    <!-- Preload Google Fonts for performance -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans" as="style" onload="this.rel='stylesheet'">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        /* Inline critical CSS for above-the-fold content */
+        .custom-btn { background: #28a745; color: #fff; border: none; padding: 10px 28px; border-radius: 4px; font-weight: 600; transition: background 0.2s; }
+        .custom-btn:hover, .custom-btn:focus { background: #218838; color: #fff; outline: 2px solid #222; }
+        .login-btn { background: #dc3545 !important; color: #fff !important; border: none; padding: 10px 28px; border-radius: 4px; font-weight: 600; transition: background 0.2s; margin-right: 10px;}
+        .login-btn:hover, .login-btn:focus { background: #b52a37 !important; color: #fff !important; outline: 2px solid #222; }
+        h1, h2, h3, h4, h5, h6 { text-shadow: 2px 2px 8px #222; }
+        img { max-width: 100%; height: auto; }
+    </style>
 </head>
 <body>
-<!-- REMOVE or comment out the preloader to fix the white space issue -->
-<!-- <div class="dolce-preloader">
-    <div class="spinner"></div>
-</div> -->
 <header class="header-area" id="home">
     <div class="header-top">
         <div class="container">
@@ -33,11 +40,11 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <nav class="header-top-icons">
+                    <nav class="header-top-icons" aria-label="Social media">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#" aria-label="YouTube"><i class="fa fa-youtube"></i></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -47,12 +54,10 @@
     <div class="header-menu">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
-                    <!-- Removed the logo-image and any Dolce text/logo -->
-                </div>
+                <div class="col-md-2"></div>
                 <div class="col-md-10">
                     <div class="custom-navbar"><i class="fa fa-bars"></i></div>
-                    <nav class="main-menu" id="navigation">
+                    <nav class="main-menu" id="navigation" aria-label="Main navigation">
                         <ul>
                             <li class="active"><a href="#hero" class="scroll-link">Home</a></li>
                             <li><a href="#about" class="scroll-link">About Us</a></li>
@@ -73,11 +78,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1 style="color:#ffd700;font-weight:700;letter-spacing:2px;margin-bottom:10px;text-shadow:2px 2px 8px #222;">Welcome to</h1>
-                <h2 style="color:#28a745;font-weight:700;letter-spacing:2px;margin-bottom:20px;text-shadow:2px 2px 8px #222;">
-                    BELOVES TROUTLAND AND RESORT
-                </h2>
-                <a href="login.html" class="custom-btn" style="margin-top:10px;">Login</a>
+                <h1 style="color:#ffd700;font-weight:700;letter-spacing:2px;margin-bottom:10px;">Welcome to</h1>
+                <h2 style="color:#28a745;font-weight:700;letter-spacing:2px;margin-bottom:20px;">BELOVES TROUTLAND AND RESORT</h2>
+                <a href="#about" class="custom-btn" style="background:#dc3545;margin-top:10px;">Discover More</a>
             </div>
         </div>
     </div>
@@ -111,13 +114,13 @@
         <div class="section-top text-center"><h2>Gallery</h2></div>
         <div class="row">
             <div class="col-md-4 col-sm-6">
-                <img src="https://lh3.googleusercontent.com/p/AF1QipMMm9UrOMk4kl7TWlGwQ-lThHdn38ze4BSBy7tZ=s1360-w1360-h1020-rw" alt="Fish Pond" class="img-responsive" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipMMm9UrOMk4kl7TWlGwQ-lThHdn38ze4BSBy7tZ=s1360-w1360-h1020-rw" alt="Fish Pond" width="400" height="220" loading="lazy" class="img-responsive" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
             </div>
             <div class="col-md-4 col-sm-6">
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqDfgGyfs6kaqazQyi6UOHVcVBQD305ysSkGg0f28m0Kckr7s0d7QKkSevdZW_zLMtyu9xaMomp6WsjHl4i6VRW-anJesEnN-BOBoVwSdxtrB7WxQk7N2ucxFxlqlyGB6dxTjE=s1360-w1360-h1020-rw" alt="Resort View" class="img-responsive" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqDfgGyfs6kaqazQyi6UOHVcVBQD305ysSkGg0f28m0Kckr7s0d7QKkSevdZW_zLMtyu9xaMomp6WsjHl4i6VRW-anJesEnN-BOBoVwSdxtrB7WxQk7N2ucxFxlqlyGB6dxTjE=s1360-w1360-h1020-rw" alt="Resort View" width="400" height="220" loading="lazy" class="img-responsive" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
             </div>
             <div class="col-md-4 col-sm-6">
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqylKMsIaM0MRRH3xdEHSB-SMTx4SHNV-qkZlipWZuGYy1QFciqxNr9DETqiIzdN2T92aBs3nCyjXxJW3xVk-bN_eN44r4Hl55Cc34xAOIWE_Rm1TvAkzJ9lOWuDj4DPcPd2qTE=s1360-w1360-h1020-rw" alt="Nepali Landscape" class="img-responsive" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqylKMsIaM0MRRH3xdEHSB-SMTx4SHNV-qkZlipWZuGYy1QFciqxNr9DETqiIzdN2T92aBs3nCyjXxJW3xVk-bN_eN44r4Hl55Cc34xAOIWE_Rm1TvAkzJ9lOWuDj4DPcPd2qTE=s1360-w1360-h1020-rw" alt="Nepali Landscape" width="400" height="220" loading="lazy" class="img-responsive" style="width:100%;height:220px;object-fit:cover;border-radius:8px;">
             </div>
         </div>
     </div>
@@ -292,7 +295,11 @@
                         <p><i class="fa fa-phone"></i> +977-9857667680</p>
                         <p><i class="fa fa-envelope-o"></i> <a href="mailto:info@belovestroutland.com">info@belovestroutland.com</a></p>
                         <div style="margin-top:20px;">
-                            <iframe src="https://www.google.com/maps?q=Kageshwori+Manohara,+Kathmandu,+Nepal&output=embed" width="100%" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <!-- Restore the Google Maps iframe as before -->
+                            <iframe 
+                                src="https://www.google.com/maps?q=Kageshwori+Manohara,+Kathmandu,+Nepal&output=embed" 
+                                width="100%" height="220" frameborder="0" style="border:0;border-radius:8px;" 
+                                allowfullscreen="" aria-hidden="false" tabindex="0" title="Kageshwori Manohara Map"></iframe>
                         </div>
                     </div>
                 </div>
@@ -323,7 +330,7 @@
                     <div class="single-widget sm-marginBottom-50 xs-marginBottom-50">
                         <h4>Contact Info</h4>
                         <p>Kageshwori Manohara, Kathmandu</p>
-                        <p><i class="fa fa-phone"></i> +977-9800000000</p>
+                        <p><i class="fa fa-phone"></i> +977-9837437840</p>
                         <p><i class="fa fa-envelope-o"></i> <a href="mailto:info@belovestroutland.com">info@belovestroutland.com</a></p>
                     </div>
                 </div>
@@ -344,14 +351,15 @@
         </div>
     </div>
 </footer>
-<script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
-<script src="assets/js/vendor/bootstrap.min.js"></script>
-<script src="assets/js/vendor/jquery.downCount.js"></script>
-<script src="assets/js/vendor/jquery.sticky.js"></script>
-<script src="assets/js/vendor/jquery-easing.js"></script>
-<script src="assets/js/vendor/owl.carousel.min.js"></script>
-<script src="assets/js/vendor/skrollr.min.js"></script>
-<script src="assets/js/vendor/wow.min.js"></script>
-<script src="assets/js/main.js"></script>
+<!-- At the end, defer JS for performance -->
+<script src="assets/js/vendor/jquery-2.2.4.min.js" defer></script>
+<script src="assets/js/vendor/bootstrap.min.js" defer></script>
+<script src="assets/js/vendor/jquery.downCount.js" defer></script>
+<script src="assets/js/vendor/jquery.sticky.js" defer></script>
+<script src="assets/js/vendor/jquery-easing.js" defer></script>
+<script src="assets/js/vendor/owl.carousel.min.js" defer></script>
+<script src="assets/js/vendor/skrollr.min.js" defer></script>
+<script src="assets/js/vendor/wow.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
 </body>
 </html>
